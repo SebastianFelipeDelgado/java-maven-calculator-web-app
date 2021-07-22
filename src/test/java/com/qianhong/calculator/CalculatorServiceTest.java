@@ -28,5 +28,8 @@ public class CalculatorServiceTest {
         assertEquals(88, new CalculatorService().Mul(11, 8).getResult());
     }
 
-    
+    @Test
+    public void testDiv() {
+        assertEquals(1, new CalculatorService().Div(12, 12).getResult());
+    }
 }
