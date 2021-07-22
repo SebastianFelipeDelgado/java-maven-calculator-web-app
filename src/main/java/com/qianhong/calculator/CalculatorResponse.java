@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class CalculatorResponse {
 
-    int _x
+    int _x;
     int _y;
     int _result;
     String _time;
